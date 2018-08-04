@@ -1,4 +1,9 @@
+sh "pwd"
+
 def hello(){
-    echo "hey"
-    sh "pwd"
+    node {
+        echo "hey"
+
+        sh "pwd"
+    }
 }
