@@ -1,9 +1,6 @@
-sh "pwd"
 
-def hello(){
-    node {
-        echo "hey"
-
-        sh "pwd"
-    }
+node('master'){
+    sh "pwd"
 }
+
+
